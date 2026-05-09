@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Pilot Card</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+
+<style>
+body {
+    background: black;
+    color: white;
+    font-family: 'Black Ops One', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card {
+    border: 2px solid white;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.05);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <h1 id="name">Loading...</h1>
+
+    <p>⭐ Rating: <span id="rating"></span></p>
+    <p>📈 Record: <span id="record"></span></p>
+    <p>🏆 Championships: <span id="championships"></span></p>
+</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const pilotId = params.get("id");
+
+fetch("drivers.json")
+.then(response => response.json())
+.then(data => {
+
+    const pilot = data.find(p => p.id === pilotId);
+
+    if (!pilot) {
+        document.body.innerHTML = "<h1>Pilot not found</h1>";
+        return;
+    }
+
+    document.getElementById("name").innerText = pilot.name;
+    document.getElementById("rating").innerText = pilot.rating;
+    document.getElementById("record").innerText =
+        pilot.wins + "-" + pilot.losses;
+
+    document.getElementById("championships").innerText =
+        pilot.championships;
+});
+</script>
+
+</body>
+</html>
