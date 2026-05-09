@@ -1,0 +1,19 @@
+[
+  {
+    "id": "tvink",
+    "name": "Tvink",
+    "rating": 1540,
+    "wins": 18,
+    "losses": 5,
+    "championships": 2
+  },
+
+  {
+    "id": "neo",
+    "name": "Neo",
+    "rating": 1490,
+    "wins": 14,
+    "losses": 7,
+    "championships": 1
+  }
+]
