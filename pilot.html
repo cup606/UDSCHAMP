@@ -35,12 +35,13 @@ h1 {
 <div class="card">
     <h1 id="name">Loading...</h1>
 
-    <p>⭐ Rating: <span id="rating"></span></p>
-    <p>📈 Record: <span id="record"></span></p>
-    <p>🏆 Championships: <span id="championships"></span></p>
+    <p>⭐ Rating: <span id="elo"></span></p>
+    <p>📈 Wins: <span id="wins"></span></p>
+    <p>🏁 Runs: <span id="runs"></span></p>
 </div>
 
 <script>
+
 const params = new URLSearchParams(window.location.search);
 const pilotId = params.get("id");
 
@@ -48,21 +49,20 @@ fetch("drivers.json")
 .then(response => response.json())
 .then(data => {
 
-    const pilot = data.find(p => p.id === pilotId);
+    const pilot = data[pilotId];
 
     if (!pilot) {
         document.body.innerHTML = "<h1>Pilot not found</h1>";
         return;
     }
 
-    document.getElementById("name").innerText = pilot.name;
-    document.getElementById("rating").innerText = pilot.rating;
-    document.getElementById("record").innerText =
-        pilot.wins + "-" + pilot.losses;
+    document.getElementById("name").innerText = pilotId;
+    document.getElementById("elo").innerText = pilot.elo;
+    document.getElementById("wins").innerText = pilot.wins;
+    document.getElementById("runs").innerText = pilot.runs;
 
-    document.getElementById("championships").innerText =
-        pilot.championships;
 });
+
 </script>
 
 </body>
