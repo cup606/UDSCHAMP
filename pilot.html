@@ -81,54 +81,38 @@ h1{
 
 <script>
 
+alert("SCRIPT STARTED");
+
 const params = new URLSearchParams(window.location.search);
 
 const pilotId = params.get("id");
 
+alert("ID: " + pilotId);
+
 fetch("./drivers.json")
 
-.then(response => response.json())
+.then(response => {
+
+    alert("FETCH OK");
+
+    return response.json();
+})
 
 .then(data => {
 
+    alert("JSON LOADED");
+
     const pilot = data[pilotId];
 
-    if (!pilot){
-
-        document.body.innerHTML = "<h1>Pilot not found</h1>";
-
-        return;
-    }
+    alert("PILOT FOUND");
 
     document.getElementById("name").innerText = pilotId;
-
-    document.getElementById("elo").innerText = pilot.elo;
-
-    document.getElementById("wins").innerText = pilot.wins;
-
-    document.getElementById("runs").innerText = pilot.runs;
-
-    const vsList = document.getElementById("vs-list");
-
-    for (const opponent in pilot.vs){
-
-        const div = document.createElement("div");
-
-        div.className = "vs-item";
-
-        div.innerHTML = 
-            <span>${opponent}</span>
-            <span>${pilot.vs[opponent]}</span>
-        ;
-
-        vsList.appendChild(div);
-    }
 
 })
 
 .catch(error => {
 
-    document.body.innerHTML = "<h1>ERROR LOADING DATA</h1>";
+    alert("ERROR");
 
     console.log(error);
 
