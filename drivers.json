@@ -1,24 +1,18 @@
 {
     "Maga": {
-        "wins": 3,
-        "runs": 6,
+        "wins": 1,
+        "runs": 1,
         "elo": 999,
         "vs": {
-            "D4led": 1,
-            "Athlete": 0,
-            "Sirius": 1,
-            "Impress": 0,
-            "Ejidze": 1,
-            "Anuar": 0
+            "D4led": 1
         }
     },
     "D4led": {
         "wins": 0,
-        "runs": 2,
+        "runs": 1,
         "elo": 969,
         "vs": {
-            "Maga": 0,
-            "Kusk": 0
+            "Maga": 0
         }
     }
 }
