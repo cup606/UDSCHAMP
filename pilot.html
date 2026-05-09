@@ -7,37 +7,97 @@
 <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
 
 <style>
+
 body {
-    background: black;
+    margin: 0;
     color: white;
     font-family: 'Black Ops One', sans-serif;
-    text-align: center;
-    padding-top: 50px;
+
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.overlay {
+    min-height: 100vh;
+    background: rgba(0,0,0,0.75);
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .card {
-    border: 2px solid white;
-    width: 400px;
+    width: 500px;
     margin: auto;
-    padding: 20px;
-    border-radius: 15px;
-    background: rgba(255,255,255,0.05);
+
+    background: rgba(255,255,255,0.08);
+
+    border: 2px solid white;
+    border-radius: 20px;
+
+    padding: 25px;
+
+    backdrop-filter: blur(5px);
 }
 
 h1 {
-    margin-bottom: 20px;
+    text-align: center;
+    font-size: 42px;
 }
+
+.stats {
+    margin-top: 25px;
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+.vs-title {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.vs-list {
+    margin-top: 20px;
+}
+
+.vs-item {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px;
+
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+    font-size: 20px;
+}
+
 </style>
 </head>
 
 <body>
 
+<div class="overlay">
+
 <div class="card">
+
     <h1 id="name">Loading...</h1>
 
-    <p>⭐ Rating: <span id="elo"></span></p>
-    <p>📈 Wins: <span id="wins"></span></p>
-    <p>🏁 Runs: <span id="runs"></span></p>
+    <div class="stats">
+        ⭐ Rating: <span id="elo"></span><br>
+        📈 Wins: <span id="wins"></span><br>
+        🏁 Runs: <span id="runs"></span>
+    </div>
+
+    <div class="vs-title">
+        HEAD TO HEAD
+    </div>
+
+    <div class="vs-list" id="vs-list">
+    </div>
+
+</div>
+
 </div>
 
 <script>
@@ -60,6 +120,23 @@ fetch("drivers.json")
     document.getElementById("elo").innerText = pilot.elo;
     document.getElementById("wins").innerText = pilot.wins;
     document.getElementById("runs").innerText = pilot.runs;
+
+    const vsList = document.getElementById("vs-list");
+
+    for (const opponent in pilot.vs) {
+
+        const wins = pilot.vs[opponent];
+
+        const div = document.createElement("div");
+        div.className = "vs-item";
+
+        div.innerHTML = 
+            <span>${opponent}</span>
+            <span>${wins}</span>
+        ;
+
+        vsList.appendChild(div);
+    }
 
 });
 
