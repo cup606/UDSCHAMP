@@ -85,7 +85,7 @@ const params = new URLSearchParams(window.location.search);
 
 const pilotId = params.get("id");
 
-fetch("./drivers.json")
+fetch("./drivers.json?v=" + Date.now())
 
 .then(response => response.json())
 
