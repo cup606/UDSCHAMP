@@ -1,18 +1,979 @@
 {
     "Maga": {
-        "wins": 1,
-        "runs": 1,
+        "wins": 3,
+        "runs": 6,
         "elo": 999,
         "vs": {
-            "D4led": 1
+            "D4led": 1,
+            "Athlete": 0,
+            "Sirius": 1,
+            "Impress": 0,
+            "Ejidze": 1,
+            "Anuar": 0
         }
     },
     "D4led": {
         "wins": 0,
-        "runs": 1,
+        "runs": 2,
         "elo": 969,
         "vs": {
-            "Maga": 0
+            "Maga": 0,
+            "Kusk": 0
+        }
+    },
+    "Athlete": {
+        "wins": 3,
+        "runs": 10,
+        "elo": 968,
+        "vs": {
+            "Chit$$": 1,
+            "Maga": 1,
+            "Brembo": 0,
+            "Impress": 0,
+            "Fox": 0,
+            "Teslik": 1,
+            "Seen": 0,
+            "Shut": 1,
+            "Tobi": 0,
+            "Fronzes": 0
+        }
+    },
+    "Chit$$": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Athlete": 0
+        }
+    },
+    "Gwizex": {
+        "wins": 10,
+        "runs": 14,
+        "elo": 1078,
+        "vs": {
+            "Bebra": 1,
+            "Kage": 1,
+            "Impress": 1,
+            "Brembo": 0,
+            "Dexy": 1,
+            "Faultless": 1,
+            "Piffi": 1,
+            "Hishiba": 1,
+            "Hovs": 1,
+            "Fox": 1,
+            "Seen": 0,
+            "Ksankz": 1,
+            "Kadzuhiko": 0
+        }
+    },
+    "Bebra": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Gwizex": 0
+        }
+    },
+    "Die": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Anuar": 0
+        }
+    },
+    "Anuar": {
+        "wins": 6,
+        "runs": 13,
+        "elo": 993,
+        "vs": {
+            "Die": 1,
+            "Brembo": 0,
+            "Impress": 0,
+            "Maga": 1,
+            "Fox": 1,
+            "Haffen": 1,
+            "Lis": 0,
+            "Yoyka": 1,
+            "Straw": 1,
+            "Seen": 0,
+            "Faultless": 0
+        }
+    },
+    "Ejidze": {
+        "wins": 9,
+        "runs": 18,
+        "elo": 1024,
+        "vs": {
+            "Kage": 0,
+            "Yuki": 1,
+            "Brembo": 0,
+            "Maga": 0,
+            "Fancy": 1,
+            "Fllaur": 1,
+            "Fronzes": 1,
+            "Piffi": 1,
+            "Sae": 1,
+            "Seen": 0,
+            "Kadzuhiko": 0,
+            "Mitsuoka": 1,
+            "Hovs": 0,
+            "Tvink": 1,
+            "Faultless": 1
+        }
+    },
+    "Kage": {
+        "wins": 1,
+        "runs": 2,
+        "elo": 1000,
+        "vs": {
+            "Ejidze": 1,
+            "Gwizex": 0
+        }
+    },
+    "Brembo": {
+        "wins": 18,
+        "runs": 21,
+        "elo": 1174,
+        "vs": {
+            "Stuff": 1,
+            "Anuar": 1,
+            "Athlete": 2,
+            "Gwizex": 2,
+            "Ejidze": 3,
+            "Impress": 1,
+            "Haffen": 0,
+            "Abilaib": 1,
+            "Lis": 1,
+            "Ksankz": 1,
+            "Fancy": 1,
+            "Fronzes": 0,
+            "Tvink": 1,
+            "Gaara": 1,
+            "Nexso": 1,
+            "Tobi": 1
+        }
+    },
+    "Stuff": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Brembo": 0
+        }
+    },
+    "Impress": {
+        "wins": 12,
+        "runs": 18,
+        "elo": 1077,
+        "vs": {
+            "Ko4evnik": 1,
+            "Alisa": 1,
+            "Gwizex": 0,
+            "Athlete": 1,
+            "Anuar": 1,
+            "Maga": 1,
+            "Brembo": 1,
+            "Khan": 1,
+            "Rima": 1,
+            "Fox": 1,
+            "Fronzes": 0,
+            "Tobi": 1,
+            "Xdcpm": 1,
+            "Seen": 0,
+            "Fronky": 0,
+            "Kanda": 1,
+            "Kusk": 0
+        }
+    },
+    "Ko4evnik": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Impress": 0
+        }
+    },
+    "Alisa": {
+        "wins": 1,
+        "runs": 2,
+        "elo": 1000,
+        "vs": {
+            "Ghost": 1,
+            "Impress": 0
+        }
+    },
+    "Ghost": {
+        "wins": 0,
+        "runs": 2,
+        "elo": 969,
+        "vs": {
+            "Alisa": 0,
+            "Sae": 0
+        }
+    },
+    "Sirius": {
+        "wins": 0,
+        "runs": 2,
+        "elo": 969,
+        "vs": {
+            "Maga": 0,
+            "Haffen": 0
+        }
+    },
+    "Yuki": {
+        "wins": 3,
+        "runs": 8,
+        "elo": 972,
+        "vs": {
+            "Ejidze": 0,
+            "Teslik": 1,
+            "Lis": 1,
+            "Haffen": 0,
+            "Fox": 1,
+            "Fronzes": 0,
+            "Hovs": 0,
+            "Straw": 0
+        }
+    },
+    "Haffen": {
+        "wins": 3,
+        "runs": 4,
+        "elo": 1033,
+        "vs": {
+            "Sirius": 1,
+            "Brembo": 1,
+            "Yuki": 1,
+            "Anuar": 0
+        }
+    },
+    "Teslik": {
+        "wins": 0,
+        "runs": 6,
+        "elo": 913,
+        "vs": {
+            "Yuki": 0,
+            "Conoplya": 0,
+            "Hovs": 0,
+            "Athlete": 0,
+            "Rima": 0
+        }
+    },
+    "Kusk": {
+        "wins": 4,
+        "runs": 8,
+        "elo": 1009,
+        "vs": {
+            "D4led": 1,
+            "Fox": 0,
+            "Kanda": 1,
+            "Fronzes": 0,
+            "Tobi": 0,
+            "Mitsuoka": 1,
+            "Impress": 1,
+            "Straw": 0
+        }
+    },
+    "Fox": {
+        "wins": 10,
+        "runs": 19,
+        "elo": 1013,
+        "vs": {
+            "Athlete": 1,
+            "Kusk": 1,
+            "Anuar": 1,
+            "Yuki": 0,
+            "Scar": 1,
+            "Piffi": 0,
+            "Conoplya": 1,
+            "Faultless": 1,
+            "Gwizex": 0,
+            "Fllaur": 1,
+            "Fronzes": 0,
+            "Hermes": 1,
+            "Impress": 0,
+            "Fronky": 0,
+            "Fami": 1,
+            "Fancy": 0,
+            "Tomotomo": 1,
+            "Straw": 0
+        }
+    },
+    "Lis": {
+        "wins": 1,
+        "runs": 6,
+        "elo": 944,
+        "vs": {
+            "Yuki": 0,
+            "Anuar": 1,
+            "Brembo": 0,
+            "Fllaur": 0,
+            "Tobi": 0,
+            "Ksankz": 0
+        }
+    },
+    "Dexy": {
+        "wins": 1,
+        "runs": 3,
+        "elo": 986,
+        "vs": {
+            "Smile": 1,
+            "Gwizex": 0,
+            "Fronzes": 0
+        }
+    },
+    "Smile": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Dexy": 0
+        }
+    },
+    "Fake": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Scar": 0
+        }
+    },
+    "Scar": {
+        "wins": 1,
+        "runs": 2,
+        "elo": 999,
+        "vs": {
+            "Fake": 1,
+            "Fox": 0
+        }
+    },
+    "Faultless": {
+        "wins": 8,
+        "runs": 13,
+        "elo": 1051,
+        "vs": {
+            "Dayfan": 1,
+            "Sae": 1,
+            "Gwizex": 0,
+            "Fancy": 1,
+            "Fox": 0,
+            "Kanda": 1,
+            "Suo": 1,
+            "Fronzes": 1,
+            "Nexso": 1,
+            "Seen": 0,
+            "Anuar": 1,
+            "Ejidze": 0
+        }
+    },
+    "Dayfan": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Faultless": 0
+        }
+    },
+    "Shut": {
+        "wins": 1,
+        "runs": 3,
+        "elo": 983,
+        "vs": {
+            "Samurai": 1,
+            "Piffi": 0,
+            "Athlete": 0
+        }
+    },
+    "Samurai": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Shut": 0
+        }
+    },
+    "Sae": {
+        "wins": 2,
+        "runs": 5,
+        "elo": 985,
+        "vs": {
+            "Ghost": 1,
+            "Faultless": 0,
+            "Ejidze": 0,
+            "Hishiba": 1,
+            "Tobi": 0
+        }
+    },
+    "Piffi": {
+        "wins": 4,
+        "runs": 8,
+        "elo": 999,
+        "vs": {
+            "Fantom": 1,
+            "Shut": 1,
+            "Fox": 1,
+            "Gwizex": 0,
+            "Ejidze": 0,
+            "Hovs": 0,
+            "Fury": 1
+        }
+    },
+    "Fantom": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Piffi": 0
+        }
+    },
+    "Skiln": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Goust": 0
+        }
+    },
+    "Goust": {
+        "wins": 1,
+        "runs": 2,
+        "elo": 1000,
+        "vs": {
+            "Skiln": 1,
+            "Ksankz": 0
+        }
+    },
+    "Ksankz": {
+        "wins": 4,
+        "runs": 8,
+        "elo": 1009,
+        "vs": {
+            "Razzen": 1,
+            "Goust": 1,
+            "Brembo": 0,
+            "Seen": 0,
+            "Gwizex": 0,
+            "Lis": 1,
+            "Straw": 1
+        }
+    },
+    "Razzen": {
+        "wins": 0,
+        "runs": 2,
+        "elo": 974,
+        "vs": {
+            "Ksankz": 0,
+            "Hovs": 0
+        }
+    },
+    "Conoplya": {
+        "wins": 1,
+        "runs": 3,
+        "elo": 983,
+        "vs": {
+            "Teslik": 1,
+            "Fronzes": 0,
+            "Fox": 0
+        }
+    },
+    "Fronzes": {
+        "wins": 12,
+        "runs": 16,
+        "elo": 1108,
+        "vs": {
+            "Yuki": 1,
+            "Conoplya": 1,
+            "Ejidze": 1,
+            "Dexy": 1,
+            "Fllaur": 0,
+            "Fox": 1,
+            "Brembo": 1,
+            "Tobi": 1,
+            "Hovs": 2,
+            "Kusk": 1,
+            "Impress": 1,
+            "Seen": 0,
+            "Athlete": 1,
+            "Faultless": 0
+        }
+    },
+    "Abilaib": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 988,
+        "vs": {
+            "Brembo": 0
+        }
+    },
+    "Fancy": {
+        "wins": 4,
+        "runs": 11,
+        "elo": 980,
+        "vs": {
+            "Ejidze": 0,
+            "Faultless": 0,
+            "Brembo": 0,
+            "Xdcpm": 0,
+            "Blinder": 1,
+            "Fllaur": 1,
+            "Tobi": 0,
+            "Apollo": 1,
+            "Fox": 1,
+            "Nexso": 0,
+            "Hovs": 0
+        }
+    },
+    "Parafal": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Fllaur": 0
+        }
+    },
+    "Fllaur": {
+        "wins": 4,
+        "runs": 10,
+        "elo": 969,
+        "vs": {
+            "Parafal": 1,
+            "Ejidze": 0,
+            "Lis": 1,
+            "Fronzes": 1,
+            "Seen": 0,
+            "Fox": 0,
+            "Hovs": 0,
+            "Medalist": 1,
+            "Fancy": 0,
+            "Nexso": 0
+        }
+    },
+    "Seen": {
+        "wins": 17,
+        "runs": 19,
+        "elo": 1182,
+        "vs": {
+            "Ksankz": 2,
+            "Ejidze": 1,
+            "Fllaur": 1,
+            "Gwizex": 1,
+            "Los": 1,
+            "Athlete": 1,
+            "Tobi": 2,
+            "Fronzes": 1,
+            "Kanda": 1,
+            "Impress": 1,
+            "Hovs": 0,
+            "Straw": 1,
+            "Flio": 1,
+            "Anuar": 1,
+            "Rima": 1,
+            "Faultless": 1,
+            "Nexso": 0
+        }
+    },
+    "Hishiba": {
+        "wins": 0,
+        "runs": 2,
+        "elo": 971,
+        "vs": {
+            "Gwizex": 0,
+            "Sae": 0
+        }
+    },
+    "Hovs": {
+        "wins": 13,
+        "runs": 18,
+        "elo": 1108,
+        "vs": {
+            "Teslik": 1,
+            "Gwizex": 0,
+            "Piffi": 2,
+            "Fllaur": 1,
+            "Kadzuhiko": 1,
+            "Fronzes": 0,
+            "Fronky": 1,
+            "Xdcpm": 1,
+            "Yuki": 1,
+            "Ejidze": 1,
+            "Seen": 1,
+            "Tobi": 1,
+            "Razzen": 1,
+            "Fancy": 1
+        }
+    },
+    "Kadzuhiko": {
+        "wins": 7,
+        "runs": 11,
+        "elo": 1040,
+        "vs": {
+            "Ejidze": 1,
+            "Gwizex": 1,
+            "Hovs": 0,
+            "Tobi": 1,
+            "Tvink": 1,
+            "Nezso": 1,
+            "Fronky": 1,
+            "Rima": 0,
+            "Void": 1,
+            "Alpha": 0
+        }
+    },
+    "Tobi": {
+        "wins": 14,
+        "runs": 21,
+        "elo": 1113,
+        "vs": {
+            "Lis": 1,
+            "Sae": 1,
+            "Fronzes": 0,
+            "Kadzuhiko": 1,
+            "Blinder": 1,
+            "Suo": 1,
+            "Seen": 0,
+            "Impress": 0,
+            "Kusk": 1,
+            "Athlete": 1,
+            "Fancy": 1,
+            "Straw": 2,
+            "Hovs": 2,
+            "Zenosx": 1,
+            "Kari": 1,
+            "Brembo": 0
+        }
+    },
+    "Fronky": {
+        "wins": 3,
+        "runs": 6,
+        "elo": 1010,
+        "vs": {
+            "Hovs": 0,
+            "Suo": 1,
+            "Fox": 1,
+            "Straw": 0,
+            "Impress": 1,
+            "Kadzuhiko": 0
+        }
+    },
+    "Xdcpm": {
+        "wins": 1,
+        "runs": 3,
+        "elo": 988,
+        "vs": {
+            "Fancy": 1,
+            "Hovs": 0,
+            "Impress": 0
+        }
+    },
+    "Los": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 987,
+        "vs": {
+            "Seen": 0
+        }
+    },
+    "Kanda": {
+        "wins": 3,
+        "runs": 7,
+        "elo": 994,
+        "vs": {
+            "Kusk": 0,
+            "Faultless": 1,
+            "Seen": 0,
+            "Abas": 1,
+            "Cup": 1,
+            "Impress": 0
+        }
+    },
+    "Khan": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 986,
+        "vs": {
+            "Impress": 0
+        }
+    },
+    "Straw": {
+        "wins": 8,
+        "runs": 13,
+        "elo": 1054,
+        "vs": {
+            "Medalist": 1,
+            "Ksankz": 0,
+            "Anuar": 1,
+            "Rima": 1,
+            "Fronky": 1,
+            "Tobi": 0,
+            "Seen": 0,
+            "Yuki": 1,
+            "Fox": 1,
+            "Kusk": 1,
+            "Nexso": 1
+        }
+    },
+    "Medalist": {
+        "wins": 0,
+        "runs": 2,
+        "elo": 968,
+        "vs": {
+            "Straw": 0,
+            "Fllaur": 0
+        }
+    },
+    "Rima": {
+        "wins": 7,
+        "runs": 11,
+        "elo": 1047,
+        "vs": {
+            "Zelix": 1,
+            "Impress": 0,
+            "Teslik": 2,
+            "Straw": 0,
+            "Gaara": 1,
+            "Kadzuhiko": 1,
+            "Seen": 0,
+            "Nexso": 1,
+            "Fami": 1,
+            "Kari": 0
+        }
+    },
+    "Zelix": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Rima": 0
+        }
+    },
+    "Yoyka": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 985,
+        "vs": {
+            "Anuar": 0
+        }
+    },
+    "Hermes": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 985,
+        "vs": {
+            "Fox": 0
+        }
+    },
+    "Tvink": {
+        "wins": 0,
+        "runs": 3,
+        "elo": 961,
+        "vs": {
+            "Kadzuhiko": 0,
+            "Brembo": 0,
+            "Ejidze": 0
+        }
+    },
+    "Abas": {
+        "wins": 0,
+        "runs": 2,
+        "elo": 968,
+        "vs": {
+            "Nexso": 0,
+            "Kanda": 0
+        }
+    },
+    "Nexso": {
+        "wins": 7,
+        "runs": 11,
+        "elo": 1050,
+        "vs": {
+            "Abas": 1,
+            "Mitsuoka": 1,
+            "Fllaur": 1,
+            "Fancy": 1,
+            "Faultless": 0,
+            "Rima": 0,
+            "Abc": 1,
+            "Seen": 1,
+            "Alpha": 1,
+            "Brembo": 0,
+            "Straw": 0
+        }
+    },
+    "Doza": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Suo": 0
+        }
+    },
+    "Suo": {
+        "wins": 1,
+        "runs": 5,
+        "elo": 953,
+        "vs": {
+            "Doza": 1,
+            "Tobi": 0,
+            "Fronky": 0,
+            "Faultless": 0,
+            "Kari": 0
+        }
+    },
+    "Blinder": {
+        "wins": 0,
+        "runs": 2,
+        "elo": 966,
+        "vs": {
+            "Tobi": 0,
+            "Fancy": 0
+        }
+    },
+    "Nezso": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 986,
+        "vs": {
+            "Kadzuhiko": 0
+        }
+    },
+    "Fury": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Piffi": 0
+        }
+    },
+    "Mitsuoka": {
+        "wins": 1,
+        "runs": 4,
+        "elo": 968,
+        "vs": {
+            "Arata": 1,
+            "Ejidze": 0,
+            "Nexso": 0,
+            "Kusk": 0
+        }
+    },
+    "Arata": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Mitsuoka": 0
+        }
+    },
+    "Apollo": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 983,
+        "vs": {
+            "Fancy": 0
+        }
+    },
+    "Fami": {
+        "wins": 0,
+        "runs": 2,
+        "elo": 972,
+        "vs": {
+            "Fox": 0,
+            "Rima": 0
+        }
+    },
+    "Gaara": {
+        "wins": 2,
+        "runs": 4,
+        "elo": 1005,
+        "vs": {
+            "Komsomol": 1,
+            "Rima": 0,
+            "Hank": 1,
+            "Brembo": 0
+        }
+    },
+    "Komsomol": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Gaara": 0
+        }
+    },
+    "Zenosx": {
+        "wins": 0,
+        "runs": 2,
+        "elo": 972,
+        "vs": {
+            "Tobi": 0,
+            "Alpha": 0
+        }
+    },
+    "Cup": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Kanda": 0
+        }
+    },
+    "Flio": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 991,
+        "vs": {
+            "Seen": 0
+        }
+    },
+    "Abc": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 985,
+        "vs": {
+            "Nexso": 0
+        }
+    },
+    "Alpha": {
+        "wins": 2,
+        "runs": 3,
+        "elo": 1018,
+        "vs": {
+            "Zenosx": 1,
+            "Kadzuhiko": 1,
+            "Nexso": 0
+        }
+    },
+    "Void": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 986,
+        "vs": {
+            "Kadzuhiko": 0
+        }
+    },
+    "Kari": {
+        "wins": 2,
+        "runs": 3,
+        "elo": 1020,
+        "vs": {
+            "Suo": 1,
+            "Rima": 1,
+            "Tobi": 0
+        }
+    },
+    "Hank": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 984,
+        "vs": {
+            "Gaara": 0
+        }
+    },
+    "Tomotomo": {
+        "wins": 0,
+        "runs": 1,
+        "elo": 985,
+        "vs": {
+            "Fox": 0
         }
     }
 }
