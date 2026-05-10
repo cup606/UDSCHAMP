@@ -100,13 +100,13 @@ fetch("./drivers.json?v=" + Date.now())
         return;
     }
 
-    document.getElementById("name").innerText = pilotId;
+    innerHTML.innerText = pilotId;
 
-    document.getElementById("elo").innerText = pilot.elo;
+    innerHTML.innerText = pilot.elo;
 
-    document.getElementById("wins").innerText = pilot.wins;
+    innerHTML.innerText = pilot.wins;
 
-    document.getElementById("runs").innerText = pilot.runs;
+    innerHTML.innerText = pilot.runs;
 
     const vsList = document.getElementById("vs-list");
 
