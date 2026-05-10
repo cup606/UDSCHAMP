@@ -16,6 +16,7 @@ body{
     background-image:url("bg.jpg");
     background-size:cover;
     background-position:center;
+    background-attachment:fixed;
 }
 
 .overlay{
@@ -34,24 +35,35 @@ body{
     border-radius:20px;
 
     padding:25px;
+
+    backdrop-filter:blur(5px);
 }
 
 h1{
     text-align:center;
+    font-size:42px;
 }
 
 .stats{
     font-size:22px;
     line-height:1.8;
+    margin-top:20px;
+}
+
+h2{
+    margin-top:35px;
+    text-align:center;
 }
 
 .vs-item{
     display:flex;
     justify-content:space-between;
 
-    padding:8px 0;
+    padding:10px 0;
 
     border-bottom:1px solid rgba(255,255,255,0.2);
+
+    font-size:20px;
 }
 
 </style>
@@ -100,13 +112,13 @@ fetch("./drivers.json?v=" + Date.now())
         return;
     }
 
-    innerHTML.innerText = pilotId;
+    document.getElementById("name").innerText = pilotId;
 
-    innerHTML.innerText = pilot.elo;
+    document.getElementById("elo").innerText = pilot.elo;
 
-    innerHTML.innerText = pilot.wins;
+    document.getElementById("wins").innerText = pilot.wins;
 
-    innerHTML.innerText = pilot.runs;
+    document.getElementById("runs").innerText = pilot.runs;
 
     const vsList = document.getElementById("vs-list");
 
@@ -116,13 +128,21 @@ fetch("./drivers.json?v=" + Date.now())
 
         div.className = "vs-item";
 
-        div.innerHTML = 
+        div.innerHTML = `
             <span>${opponent}</span>
             <span>${pilot.vs[opponent]}</span>
-        ;
+        `;
 
         vsList.appendChild(div);
     }
+
+})
+
+.catch(error => {
+
+    document.body.innerHTML = "<h1>ERROR LOADING DATA</h1>";
+
+    console.log(error);
 
 });
 
